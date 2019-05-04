@@ -1,0 +1,17 @@
+
+{
+  "name": "wiadomość powitalna",
+  "temp": "memberjoin",
+  "event-type": "6",
+  "_id": "vOGeC",
+  "actions": [
+    {
+      "channel": "6",
+      "varName": "kanałpowitalny",
+      "message": "${serverVars(\"wiadomośćpowitalna\")}",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}

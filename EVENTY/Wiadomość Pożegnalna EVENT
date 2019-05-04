@@ -1,0 +1,17 @@
+
+{
+  "name": "wiadomość pożegnalna",
+  "temp": "memberleave",
+  "event-type": "7",
+  "_id": "nGZQA",
+  "actions": [
+    {
+      "channel": "6",
+      "varName": "kanałpożegnalny",
+      "message": "${serverVars(\"wiadomośćpożegnalna\")}",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}
