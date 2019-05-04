@@ -1,0 +1,35 @@
+
+{
+  "name": "ustaw wiadomość pożegnalną",
+  "permissions": "MANAGE_CHANNELS",
+  "restriction": "1",
+  "_id": "fJCuM",
+  "actions": [
+    {
+      "storage": "0",
+      "varName": "",
+      "name": "Delete Message"
+    },
+    {
+      "info": "1",
+      "infoIndex": "1",
+      "storage": "2",
+      "varName": "wiadomośćpożegnalna",
+      "name": "Store Command Params"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "📧 Wiadomość pożegnalna została ustawiona na **${serverVars(\"wiadomość\")}**",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "storage": "2",
+      "varName": "wiadomośćpożegnalna",
+      "name": "Save Variable"
+    }
+  ],
+  "comType": "1"
+}
