@@ -1,0 +1,23 @@
+
+{
+  "name": "servers",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "bUGQa",
+  "actions": [
+    {
+      "info": "17",
+      "storage": "1",
+      "varName2": "guilds",
+      "name": "Store Bot Client Info"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Na takich Serwerach jest Bot!\n\n${tempVars(\"guilds\")}",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}
